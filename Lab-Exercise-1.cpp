@@ -22,4 +22,4 @@ int main()
 	cout<<"sum is:"<<sum;
 
 return 0;
-}
+} 
