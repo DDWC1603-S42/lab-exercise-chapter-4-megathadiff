@@ -6,20 +6,20 @@ using namespace std;
 int main()
 {
 
-	int no1,no2,x,sum;
+	int no1,x,sum;
 
 	cout<<"Find the sum of a given number"<<endl;
 	cout<<"------------------------------"<<endl;
 
 	cout<<"Input number: "<<endl;
+	cin>>x>>no1;
+	
 
 
-	while(no2>0)
-	{
-	r=no1%10;
-	no1=no1/10;
-	sum=sum+x;
 
-	}
-	//print the sum of the digits here.
+
+	sum=no1+x;
+	cout<<"sum is:"<<sum;
+
+return 0;
 }
