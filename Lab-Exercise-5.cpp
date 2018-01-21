@@ -5,17 +5,26 @@
 using namespace std;
 int main()
 {
-	while(false)//infinite loop
+	int num,i;
+	cout<<"Enter 0 to exit or anything else to continue: "<<i<<endl;
+	cin>>i;
+	
+	
+	while(i)
 	{
-		std::cout<<"Enter 0 to exit or anyhing else to continue: ";
-		int num;
-		cin>>num;	
-
+		
+		if (i=0)
+		{
+			cout<<"we are out"<<endl;
+		}
 		//exit loop if user enters
-		if(num==0)
-			break;
+			else (i!=0);
+			{
+				cout<<"enter another number"<<i<<endl;
+				cin>>i;
+			}
+			
 	}
-	std::cout<<"we are out";
 
 	return 0;
 }
