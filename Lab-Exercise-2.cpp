@@ -6,28 +6,24 @@ using namespace std;
 
 int main()
 {
+  int n, i;
+  bool isPrime = true;
 
-	int i=1,u=1,sum=0;
-	cout<<"The perfect numbers between 1 to 500 are: "<<endl;
+  cout << "Enter a positive integer: ";
+  cin >> n;
 
-	while(i<=500)
+  for(i = 2; i <= n / 2; ++i)
+  {
+      if(n % i == 0)
+      {
+          isPrime = false;
+          break;
+      }
+  }
+  if (isPrime)
+      cout << "This is a prime number";
+  else
+      cout << "This is not a prime number";
 
-		while(u<=500)
-
-			if(u<i)
-
-				if(i%u=)
-					sum=sum+u;
-
-	u++
-
-		if(sum=i)
-			
-			cout<<i<<" "<<endl;
-
-	i++
-		u=1;
-		sum=0;
-
-
+  return 0;
 }
